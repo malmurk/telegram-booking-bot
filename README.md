@@ -33,13 +33,11 @@ minutes, not days.
 
 ## Screenshots
 
-> Placeholders. These get filled in once the test bot is live (see the next section).
+| Main menu | Choose a service | Choose a day | Choose a time |
+|---|---|---|---|
+| ![Main menu](docs/screenshots/1-menu.png) | ![Services](docs/screenshots/2-services.png) | ![Days](docs/screenshots/3-days.png) | ![Time slots](docs/screenshots/4-time-slots.png) |
 
-| Main menu | Choosing a time | Admin notification |
-|---|---|---|
-| `docs/screenshots/menu.png` | `docs/screenshots/slots.png` | `docs/screenshots/admin.png` |
-
-Until then, `python -m bot.demo` prints a full conversation transcript without needing a token (see *Try it without a token*).
+Want to see it without Telegram? `python -m bot.demo` prints a full conversation transcript, with no token needed (see *Try it without a token*).
 
 ## Create your test bot (BotFather, 2 minutes)
 
