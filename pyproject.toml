@@ -1,0 +1,17 @@
+[project]
+name = "telegram-booking-bot"
+version = "1.0.0"
+description = "Telegram appointment booking bot for salons and barbershops (aiogram 3, SQLite)"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Cătălin Friptu" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["F", "E", "I", "B", "UP"]
